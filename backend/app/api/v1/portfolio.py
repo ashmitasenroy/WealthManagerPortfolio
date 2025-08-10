@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from typing import List, Dict
-from backend.app.schemas import HoldingsResponse, AllocationResponse, PerformanceResponse, SummaryResponse
+from app.schemas import HoldingsResponse, AllocationResponse, PerformanceResponse, SummaryResponse
 from backend.app.calc import (
     calculate_holdings_metrics,
     calculate_sector_allocation,
