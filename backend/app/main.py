@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.api.v1.portfolio import router as portfolio_router
+from app.api.v1.portfolio import router as portfolio_router
 from backend.app.data_loader import load_portfolio_data
 import uvicorn
 
